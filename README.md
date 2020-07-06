@@ -1,7 +1,8 @@
 # defer
 ## test code
-<pre><code>
-#include <iostream>
+<pre>
+<code>
+#include <<iostream>>
 #include "defer.h"
 
 int main()
@@ -20,7 +21,8 @@ int main()
 }
 </code></pre>
 ## out
-<pre><code>
+<pre>
+<code>
 done
 defer 3
 defer 2
