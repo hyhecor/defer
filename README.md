@@ -2,7 +2,7 @@
 ## test code
 <pre>
 <code>
-#include <<iostream>>
+#include &lt;iostream&gt;
 #include "defer.h"
 
 int main()
@@ -19,7 +19,8 @@ int main()
 
     std::cout << "done" << std::endl;
 }
-</code></pre>
+</code>
+</pre>
 ## out
 <pre>
 <code>
@@ -27,4 +28,5 @@ done
 defer 3
 defer 2
 defer 1
-</code></pre>
+</code>
+</pre>
