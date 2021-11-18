@@ -7,13 +7,13 @@
 
 int main()
 {
-    DEFER_BEGIN(defer_1)
+    DEFER_BEGIN
         std::cout << "defer 1 " << std::endl;
     DEFER_END;
-    DEFER_BEGIN(defer_2)
+    DEFER_BEGIN
         std::cout << "defer 2" << std::endl;
     DEFER_END;
-    DEFER_BEGIN(defer_3)
+    DEFER_BEGIN
         std::cout << "defer 3" << std::endl;
     DEFER_END;
 
