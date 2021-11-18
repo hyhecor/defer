@@ -1,8 +1,7 @@
 # defer
 ## test code
-<pre>
-<code>
-#include &lt;iostream&gt;
+```c++
+#include <iostream>;
 #include "defer.h"
 
 int main()
@@ -19,8 +18,8 @@ int main()
 
     std::cout << "done" << std::endl;
 }
-</code>
-</pre>
+```
+`MSVC v142 Tested`
 ## out
 <pre>
 <code>
