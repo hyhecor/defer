@@ -21,7 +21,7 @@ defer __DEFER_H_UNIQUE_NAME__(DEFER_FUNC) ([&]()->void \
 
 class defer
 {
-    std::function<void()> callback_ = 0;
+    std::function<void()> callback_ = NULL;
 public:
     defer(std::function<void()> callback)
         : callback_(callback)
